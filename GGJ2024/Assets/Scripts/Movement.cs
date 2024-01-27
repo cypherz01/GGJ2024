@@ -9,6 +9,7 @@ public class Movement : MonoBehaviour
     private Vector2 moveVector = Vector2.zero;
     private Vector2 rotateVector = Vector2.zero;
     private bool flyOn = false;
+    private bool barrelMode = false;
     Rigidbody rigidbody;
     public float speed;
     public float flightSpeed;
@@ -16,7 +17,10 @@ public class Movement : MonoBehaviour
     Vector3 EulerAngleVelocityVert;
     Vector3 NegativeEulerAngleVelocity;
     Vector3 NegativeEulerAngleVelocityVert;
+    Vector3 BarrelEulerAngleVelocity;
+    Vector3 NegativeBarrelEulerAngleVelocity;
     float timer = 100000f;
+    private Recorder recorder;
 
     // Start is called before the first frame update
     void Start()
@@ -24,13 +28,17 @@ public class Movement : MonoBehaviour
         rigidbody = gameObject.GetComponent<Rigidbody>();
         EulerAngleVelocity = new Vector3(0, 100, 0);
         EulerAngleVelocityVert = new Vector3(100, 0, 0);
+        BarrelEulerAngleVelocity = new Vector3(0, 0, 100);
+        EulerAngleVelocityVert = new Vector3(100, 0, 0);
         NegativeEulerAngleVelocity = new Vector3(0, -100, 0);
         NegativeEulerAngleVelocityVert = new Vector3(-100, 0, 0);
+        NegativeBarrelEulerAngleVelocity = new Vector3(0, 0, -100);
     }
 
     private void Awake()
     {
         input = new CustomInput();
+        recorder = GetComponent<Recorder>();
     }
 
     private void OnEnable()
@@ -42,6 +50,14 @@ public class Movement : MonoBehaviour
         input.Player.Rotate.canceled += OnRotateCancelled;
         input.Player.Fly.performed += OnFlyPerformed;
         input.Player.Fly.canceled += OnFlyCancelled;
+        input.Player.CanBarrel.performed += OnBarrelPerformed;
+        input.Player.CanBarrel.canceled += OnBarrelCancelled;
+    }
+
+    private void LateUpdate()
+    {
+        replayData data = new replayData(this.transform.position,this.transform.rotation);
+        recorder.RecordReplayFrame(data);
     }
 
     private void OnDisable()
@@ -53,6 +69,8 @@ public class Movement : MonoBehaviour
         input.Player.Rotate.canceled -= OnRotateCancelled;
         input.Player.Fly.performed -= OnFlyPerformed;
         input.Player.Fly.canceled -= OnFlyCancelled;
+        input.Player.CanBarrel.performed -= OnBarrelPerformed;
+        input.Player.CanBarrel.canceled -= OnBarrelCancelled;
     }
 
     private void OnMovementPerformed(InputAction.CallbackContext context)
@@ -83,6 +101,16 @@ public class Movement : MonoBehaviour
     private void OnFlyCancelled(InputAction.CallbackContext context)
     {
         flyOn = false;
+    }
+
+    private void OnBarrelPerformed(InputAction.CallbackContext context)
+    {
+        barrelMode = context.ReadValueAsButton();
+    }
+
+    private void OnBarrelCancelled(InputAction.CallbackContext context)
+    {
+        barrelMode = false;
     }
 
 
@@ -129,6 +157,21 @@ public class Movement : MonoBehaviour
             rigidbody.MoveRotation(rigidbody.rotation * deltaRotation);
         }
 
+        if ((rotateVector.x > 0)&&(barrelMode))
+        {
+
+            Quaternion deltaRotation = Quaternion.Euler(BarrelEulerAngleVelocity * Time.fixedDeltaTime);
+
+            rigidbody.MoveRotation(rigidbody.rotation * deltaRotation);
+        }
+
+        if ((rotateVector.x < 0) && (barrelMode))
+        {
+            Quaternion deltaRotation = Quaternion.Euler(NegativeBarrelEulerAngleVelocity * Time.fixedDeltaTime);
+
+            rigidbody.MoveRotation(rigidbody.rotation * deltaRotation);
+        }
+
         if (rotateVector.y > 0)
         {
             Quaternion deltaRotation = Quaternion.Euler(EulerAngleVelocityVert * Time.fixedDeltaTime);
@@ -152,6 +195,18 @@ public class Movement : MonoBehaviour
         {
                 rigidbody.velocity = Vector3.zero;
                 rigidbody.MovePosition((Vector3.up * (Time.fixedDeltaTime) * flightSpeed) + rigidbody.position);
+        }
+
+        if (Input.GetKeyDown(KeyCode.Y))
+        {
+            GameEventsManager.instance.GoalReached();
+            GameEventsManager.instance.ChangeCameraTarget(GameObject.Find("wallCam"));
+
+        }
+
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            GameEventsManager.instance.RestartLevel();
         }
 
 
