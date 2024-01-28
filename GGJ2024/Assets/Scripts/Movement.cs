@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class Movement : MonoBehaviour
 {
@@ -21,10 +22,19 @@ public class Movement : MonoBehaviour
     Vector3 NegativeBarrelEulerAngleVelocity;
     float timer = 100000f;
     private Recorder recorder;
+    int ringGoal;
+    int ringCount;
+    public bool allRing;
+    public bool canMove;
+    GameObject cage;
 
     // Start is called before the first frame update
     void Start()
     {
+        canMove = true;
+        allRing = false;
+        cage = GameObject.Find("box3");
+        ringGoal = 8; ringCount = 0;   
         rigidbody = gameObject.GetComponent<Rigidbody>();
         EulerAngleVelocity = new Vector3(0, 100, 0);
         EulerAngleVelocityVert = new Vector3(100, 0, 0);
@@ -33,6 +43,18 @@ public class Movement : MonoBehaviour
         NegativeEulerAngleVelocity = new Vector3(0, -100, 0);
         NegativeEulerAngleVelocityVert = new Vector3(-100, 0, 0);
         NegativeBarrelEulerAngleVelocity = new Vector3(0, 0, -100);
+    }
+
+    public void addRing()
+    {
+        
+        ringCount++;
+        Debug.Log(ringCount);
+        if (ringCount == ringGoal)
+        {
+            allRing = true;
+            Destroy(cage);
+        }
     }
 
     private void Awake()
@@ -120,93 +142,85 @@ public class Movement : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-
-        if (moveVector.x > 0)
+        if (canMove)
         {
+            if (moveVector.x > 0)
+            {
 
-            rigidbody.MovePosition((rigidbody.rotation*Vector3.right*Time.fixedDeltaTime*speed) + rigidbody.position);
-        }
+                rigidbody.MovePosition((rigidbody.rotation * Vector3.right * Time.fixedDeltaTime * speed) + rigidbody.position);
+            }
 
-        if (moveVector.x < 0)
-        {
-            rigidbody.MovePosition((rigidbody.rotation * Vector3.left * Time.fixedDeltaTime*speed) + rigidbody.position);
-        }
+            if (moveVector.x < 0)
+            {
+                rigidbody.MovePosition((rigidbody.rotation * Vector3.left * Time.fixedDeltaTime * speed) + rigidbody.position);
+            }
 
-        if (moveVector.y > 0)
-        {
-            rigidbody.MovePosition((rigidbody.rotation * Vector3.forward * Time.fixedDeltaTime * speed) + rigidbody.position);
-        }
+            if (moveVector.y > 0)
+            {
+                rigidbody.MovePosition((rigidbody.rotation * Vector3.forward * Time.fixedDeltaTime * speed) + rigidbody.position);
+            }
 
-        if (moveVector.y < 0)
-        {
-            rigidbody.MovePosition((rigidbody.rotation * Vector3.back * Time.fixedDeltaTime * speed) + rigidbody.position);
-        }
+            if (moveVector.y < 0)
+            {
+                rigidbody.MovePosition((rigidbody.rotation * Vector3.back * Time.fixedDeltaTime * speed) + rigidbody.position);
+            }
 
-        if (rotateVector.x > 0)
-        {
+            if (rotateVector.x > 0)
+            {
 
-            Quaternion deltaRotation = Quaternion.Euler(EulerAngleVelocity * Time.fixedDeltaTime);
+                Quaternion deltaRotation = Quaternion.Euler(EulerAngleVelocity * Time.fixedDeltaTime);
 
-            rigidbody.MoveRotation(rigidbody.rotation * deltaRotation);
-        }
+                rigidbody.MoveRotation(rigidbody.rotation * deltaRotation);
+            }
 
-        if (rotateVector.x < 0)
-        {
-            Quaternion deltaRotation = Quaternion.Euler(NegativeEulerAngleVelocity * Time.fixedDeltaTime);
+            if (rotateVector.x < 0)
+            {
+                Quaternion deltaRotation = Quaternion.Euler(NegativeEulerAngleVelocity * Time.fixedDeltaTime);
 
-            rigidbody.MoveRotation(rigidbody.rotation * deltaRotation);
-        }
+                rigidbody.MoveRotation(rigidbody.rotation * deltaRotation);
+            }
 
-        if ((rotateVector.x > 0)&&(barrelMode))
-        {
+            if ((rotateVector.x > 0) && (barrelMode))
+            {
 
-            Quaternion deltaRotation = Quaternion.Euler(BarrelEulerAngleVelocity * Time.fixedDeltaTime);
+                Quaternion deltaRotation = Quaternion.Euler(BarrelEulerAngleVelocity * Time.fixedDeltaTime);
 
-            rigidbody.MoveRotation(rigidbody.rotation * deltaRotation);
-        }
+                rigidbody.MoveRotation(rigidbody.rotation * deltaRotation);
+            }
 
-        if ((rotateVector.x < 0) && (barrelMode))
-        {
-            Quaternion deltaRotation = Quaternion.Euler(NegativeBarrelEulerAngleVelocity * Time.fixedDeltaTime);
+            if ((rotateVector.x < 0) && (barrelMode))
+            {
+                Quaternion deltaRotation = Quaternion.Euler(NegativeBarrelEulerAngleVelocity * Time.fixedDeltaTime);
 
-            rigidbody.MoveRotation(rigidbody.rotation * deltaRotation);
-        }
+                rigidbody.MoveRotation(rigidbody.rotation * deltaRotation);
+            }
 
-        if (rotateVector.y > 0)
-        {
-            Quaternion deltaRotation = Quaternion.Euler(EulerAngleVelocityVert * Time.fixedDeltaTime);
+            if (rotateVector.y > 0)
+            {
+                Quaternion deltaRotation = Quaternion.Euler(EulerAngleVelocityVert * Time.fixedDeltaTime);
 
-            rigidbody.MoveRotation(rigidbody.rotation * deltaRotation);
-        }
+                rigidbody.MoveRotation(rigidbody.rotation * deltaRotation);
+            }
 
-        if (rotateVector.y < 0)
-        {
-            Quaternion deltaRotation = Quaternion.Euler(NegativeEulerAngleVelocityVert * Time.fixedDeltaTime);
+            if (rotateVector.y < 0)
+            {
+                Quaternion deltaRotation = Quaternion.Euler(NegativeEulerAngleVelocityVert * Time.fixedDeltaTime);
 
-            rigidbody.MoveRotation(rigidbody.rotation *  deltaRotation);
-        }
+                rigidbody.MoveRotation(rigidbody.rotation * deltaRotation);
+            }
 
-        if ((rotateVector.y == 0) && (rotateVector.x == 0))
-        {
-            rigidbody.angularVelocity = Vector3.zero;
-        }
+            if ((rotateVector.y == 0) && (rotateVector.x == 0))
+            {
+                rigidbody.angularVelocity = Vector3.zero;
+            }
 
-        if (flyOn)
-        {
+            if (flyOn)
+            {
                 rigidbody.velocity = Vector3.zero;
                 rigidbody.MovePosition((Vector3.up * (Time.fixedDeltaTime) * flightSpeed) + rigidbody.position);
-        }
+            }
 
-        if (Input.GetKeyDown(KeyCode.Y))
-        {
-            GameEventsManager.instance.GoalReached();
-            GameEventsManager.instance.ChangeCameraTarget(GameObject.Find("wallCam"));
-
-        }
-
-        if (Input.GetKeyDown(KeyCode.R))
-        {
-            GameEventsManager.instance.RestartLevel();
+           
         }
 
 

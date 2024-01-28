@@ -1,324 +1,279 @@
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1706386606825079, "dur":42905, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1706386606867991, "dur":77, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1706386606868094, "dur":412, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1706386606868721, "dur":65, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/GGJ2024_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1706386606869577, "dur":53, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/GGJ2024_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1706386606869947, "dur":109, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/GGJ2024_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":0, "ts":1706386606870392, "dur":118, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/GGJ2024_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":0, "ts":1706386606870553, "dur":52, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/GGJ2024_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":0, "ts":1706386606870797, "dur":110, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/GGJ2024_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":0, "ts":1706386606870955, "dur":67, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/GGJ2024_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":0, "ts":1706386606871101, "dur":70, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/GGJ2024_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":0, "ts":1706386606871249, "dur":63, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
-,{ "pid":12345, "tid":0, "ts":1706386606871318, "dur":56, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/GGJ2024_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":0, "ts":1706386606871552, "dur":56, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":0, "ts":1706386606871614, "dur":173, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":0, "ts":1706386606871932, "dur":52, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":0, "ts":1706386606872137, "dur":156, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":0, "ts":1706386606872303, "dur":53, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":0, "ts":1706386606872401, "dur":51, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":0, "ts":1706386606872457, "dur":53, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":0, "ts":1706386606872554, "dur":60, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":0, "ts":1706386606872619, "dur":54, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":0, "ts":1706386606872716, "dur":53, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":0, "ts":1706386606868523, "dur":4456, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1706386606872984, "dur":117600, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1706386606990585, "dur":196, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1706386606990853, "dur":223, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1706386606991169, "dur":1048, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1706386606868630, "dur":4425, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1706386606873067, "dur":5792, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1706386606879479, "dur":2190, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
-,{ "pid":12345, "tid":1, "ts":1706386606881773, "dur":417, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1706386606882203, "dur":21873, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":1, "ts":1706386606881770, "dur":22568, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1706386606904673, "dur":54, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1706386606905571, "dur":79136, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1706386606986850, "dur":2776, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1706386606986849, "dur":2779, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/GGJ2024_Data/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1706386606989644, "dur":754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/GGJ2024_Data/boot.config" }}
-,{ "pid":12345, "tid":2, "ts":1706386606869833, "dur":3584, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1706386606873418, "dur":5613, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1706386606879042, "dur":129, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.18f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
-,{ "pid":12345, "tid":2, "ts":1706386606879032, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":2, "ts":1706386606879173, "dur":1875, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1706386606881066, "dur":1767, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1706386606882853, "dur":1872, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\mrtom\\OneDrive\\Documents\\GitHub\\GGJ2024\\GGJ2024\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":2, "ts":1706386606882849, "dur":1877, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/GGJ2024_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":2, "ts":1706386606884727, "dur":245, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1706386606884992, "dur":763, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1706386606885772, "dur":692, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1706386606886495, "dur":17598, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":2, "ts":1706386606886492, "dur":17602, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/GGJ2024_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":2, "ts":1706386606904096, "dur":107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1706386606904214, "dur":86272, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1706386606868716, "dur":4363, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1706386606873087, "dur":2319, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1706386606875407, "dur":3547, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1706386606878960, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":3, "ts":1706386606879074, "dur":1462, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1706386606880589, "dur":2041, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1706386606882642, "dur":833, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\mrtom\\OneDrive\\Documents\\GitHub\\GGJ2024\\GGJ2024\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":3, "ts":1706386606882639, "dur":838, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/GGJ2024_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":3, "ts":1706386606883478, "dur":181, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1706386606883682, "dur":342, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1706386606884044, "dur":310, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1706386606884374, "dur":277, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1706386606884667, "dur":553, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1706386606885237, "dur":723, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1706386606885988, "dur":1014, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1706386606887013, "dur":103693, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1706386606868815, "dur":4283, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1706386606873106, "dur":2730, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1706386606875837, "dur":3038, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1706386606878907, "dur":320, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.18f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
-,{ "pid":12345, "tid":4, "ts":1706386606878881, "dur":348, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":4, "ts":1706386606879230, "dur":1743, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1706386606881019, "dur":73, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.18f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":4, "ts":1706386606881013, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/GGJ2024_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":4, "ts":1706386606881100, "dur":1443, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1706386606882575, "dur":547, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\mrtom\\OneDrive\\Documents\\GitHub\\GGJ2024\\GGJ2024\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":4, "ts":1706386606882570, "dur":555, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/GGJ2024_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":4, "ts":1706386606883128, "dur":911, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1706386606884092, "dur":386, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1706386606884516, "dur":575, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1706386606885139, "dur":390, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1706386606885547, "dur":339, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1706386606885903, "dur":685, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1706386606886647, "dur":172, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1706386606886831, "dur":7543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/GGJ2024_Data/globalgamemanagers.assets.resS" }}
-,{ "pid":12345, "tid":4, "ts":1706386606894434, "dur":96090, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1706386606869012, "dur":4106, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1706386606873125, "dur":2253, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1706386606875379, "dur":3593, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1706386606878973, "dur":345, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":5, "ts":1706386606879318, "dur":1321, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1706386606880677, "dur":2385, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1706386606883122, "dur":1252, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1706386606884419, "dur":359, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1706386606884812, "dur":304, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1706386606885142, "dur":764, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1706386606885927, "dur":1096, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1706386606887055, "dur":103429, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1706386606869104, "dur":4054, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1706386606873179, "dur":2695, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1706386606875875, "dur":2992, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1706386606878906, "dur":93, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.18f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":6, "ts":1706386606878873, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":6, "ts":1706386606879001, "dur":301, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1706386606879307, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":6, "ts":1706386606879396, "dur":2503, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1706386606881946, "dur":1091, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1706386606883074, "dur":997, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1706386606884115, "dur":750, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1706386606884901, "dur":1062, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1706386606886010, "dur":1035, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1706386606887071, "dur":103815, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1706386606869226, "dur":3975, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1706386606873224, "dur":2414, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1706386606875639, "dur":3244, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1706386606878888, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":7, "ts":1706386606879045, "dur":981, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1706386606880061, "dur":90, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\WindowsPlayer.exe" }}
-,{ "pid":12345, "tid":7, "ts":1706386606880039, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/GGJ2024.exe" }}
-,{ "pid":12345, "tid":7, "ts":1706386606880155, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1706386606880224, "dur":188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/GGJ2024_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":7, "ts":1706386606880413, "dur":792, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1706386606881256, "dur":1560, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1706386606882849, "dur":1532, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\mrtom\\OneDrive\\Documents\\GitHub\\GGJ2024\\GGJ2024\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":7, "ts":1706386606882843, "dur":1540, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/GGJ2024_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":7, "ts":1706386606884384, "dur":230, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1706386606884633, "dur":606, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1706386606885252, "dur":91, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.18f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1706386606885248, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/GGJ2024_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1706386606885346, "dur":294, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1706386606885640, "dur":52, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/GGJ2024_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1706386606885703, "dur":1188, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1706386606886907, "dur":103669, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1706386606869262, "dur":3985, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1706386606873254, "dur":2913, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1706386606876169, "dur":2947, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1706386606879117, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":8, "ts":1706386606879317, "dur":1868, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1706386606881241, "dur":1644, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1706386606882912, "dur":905, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\mrtom\\OneDrive\\Documents\\GitHub\\GGJ2024\\GGJ2024\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":8, "ts":1706386606882908, "dur":912, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/GGJ2024_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":8, "ts":1706386606886930, "dur":2824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/GGJ2024_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":8, "ts":1706386606889777, "dur":100796, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1706386606869568, "dur":3817, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1706386606873386, "dur":5707, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1706386606879101, "dur":75, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.18f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config" }}
-,{ "pid":12345, "tid":9, "ts":1706386606879093, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":9, "ts":1706386606879177, "dur":2231, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1706386606881426, "dur":2952, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1706386606884380, "dur":73, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/GGJ2024_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":9, "ts":1706386606884485, "dur":778, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1706386606885277, "dur":459, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1706386606885769, "dur":1251, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1706386606887041, "dur":103447, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1706386606869406, "dur":3946, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1706386606873357, "dur":1995, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1706386606875353, "dur":3621, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1706386606878975, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":10, "ts":1706386606879131, "dur":1981, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1706386606881149, "dur":1337, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1706386606882504, "dur":759, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\mrtom\\OneDrive\\Documents\\GitHub\\GGJ2024\\GGJ2024\\Library\\Bee\\PlayerScriptAssemblies\\Cinemachine.dll" }}
-,{ "pid":12345, "tid":10, "ts":1706386606882501, "dur":765, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/GGJ2024_Data/Managed/Cinemachine.dll" }}
-,{ "pid":12345, "tid":10, "ts":1706386606883267, "dur":161, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1706386606883459, "dur":296, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1706386606883773, "dur":134, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1706386606883924, "dur":325, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1706386606884250, "dur":63, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/GGJ2024_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1706386606884340, "dur":340, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1706386606884700, "dur":1584, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1706386606886355, "dur":3629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/GGJ2024_Data/sharedassets0.resource" }}
-,{ "pid":12345, "tid":10, "ts":1706386606890004, "dur":100526, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1706386606869913, "dur":3537, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1706386606873450, "dur":5623, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1706386606879087, "dur":77, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.18f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
-,{ "pid":12345, "tid":11, "ts":1706386606879073, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":11, "ts":1706386606879165, "dur":2143, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1706386606881322, "dur":1407, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1706386606882729, "dur":73, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/GGJ2024_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":11, "ts":1706386606882807, "dur":2108, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\mrtom\\OneDrive\\Documents\\GitHub\\GGJ2024\\GGJ2024\\Library\\Bee\\PlayerScriptAssemblies\\Unity.InputSystem.dll" }}
-,{ "pid":12345, "tid":11, "ts":1706386606882804, "dur":2114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/GGJ2024_Data/Managed/Unity.InputSystem.dll" }}
-,{ "pid":12345, "tid":11, "ts":1706386606884919, "dur":1326, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1706386606886259, "dur":260, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.18f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityPlayer.dll" }}
-,{ "pid":12345, "tid":11, "ts":1706386606886255, "dur":266, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":11, "ts":1706386606886522, "dur":149, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1706386606886672, "dur":69, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":11, "ts":1706386606886824, "dur":5457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/GGJ2024_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":11, "ts":1706386606892345, "dur":98180, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1706386606870045, "dur":3412, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1706386606873458, "dur":5592, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1706386606879050, "dur":264, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":12, "ts":1706386606879314, "dur":1948, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1706386606881340, "dur":1084, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1706386606882446, "dur":1766, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1706386606884213, "dur":245, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/GGJ2024_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":12, "ts":1706386606884468, "dur":713, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1706386606885210, "dur":1366, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1706386606886680, "dur":4336, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/GGJ2024_Data/level0" }}
-,{ "pid":12345, "tid":12, "ts":1706386606891078, "dur":99450, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1706386606870266, "dur":3198, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1706386606873465, "dur":5465, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1706386606878936, "dur":65, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.18f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
-,{ "pid":12345, "tid":13, "ts":1706386606878931, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":13, "ts":1706386606879003, "dur":958, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1706386606879981, "dur":280, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.18f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":13, "ts":1706386606879977, "dur":286, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":13, "ts":1706386606880265, "dur":715, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1706386606881058, "dur":1786, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1706386606882871, "dur":2486, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\mrtom\\OneDrive\\Documents\\GitHub\\GGJ2024\\GGJ2024\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":13, "ts":1706386606882866, "dur":2495, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/GGJ2024_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":13, "ts":1706386606885363, "dur":644, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1706386606886052, "dur":439, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1706386606886646, "dur":231, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1706386606887315, "dur":2526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/GGJ2024_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":13, "ts":1706386606889869, "dur":100758, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1706386606869429, "dur":3947, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1706386606873383, "dur":827, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1706386606874211, "dur":4773, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1706386606879000, "dur":145, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.18f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
-,{ "pid":12345, "tid":14, "ts":1706386606878987, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":14, "ts":1706386606879146, "dur":1445, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1706386606880611, "dur":2461, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1706386606883104, "dur":282, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1706386606883409, "dur":325, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1706386606883754, "dur":438, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1706386606884219, "dur":121, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.18f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1706386606884216, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/GGJ2024_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1706386606884346, "dur":399, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1706386606884790, "dur":1669, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1706386606886645, "dur":86, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1706386606886754, "dur":6322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/GGJ2024_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":14, "ts":1706386606893136, "dur":97393, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1706386606869785, "dur":3610, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1706386606873395, "dur":5648, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1706386606879044, "dur":295, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":15, "ts":1706386606879340, "dur":1887, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1706386606881280, "dur":1147, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1706386606882455, "dur":586, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1706386606883110, "dur":1710, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1706386606884844, "dur":652, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1706386606885530, "dur":697, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1706386606886264, "dur":598, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1706386606886869, "dur":103881, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1706386606869870, "dur":3557, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1706386606873428, "dur":5654, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1706386606879084, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":16, "ts":1706386606879217, "dur":1876, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1706386606881161, "dur":1296, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1706386606882479, "dur":422, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1706386606882917, "dur":573, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1706386606883509, "dur":264, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1706386606883800, "dur":377, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1706386606884190, "dur":483, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1706386606884690, "dur":1208, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1706386606885923, "dur":554, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1706386606886654, "dur":229, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1706386606886898, "dur":6159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/GGJ2024_Data/level0.resS" }}
-,{ "pid":12345, "tid":16, "ts":1706386606893120, "dur":97475, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1706386606870551, "dur":2963, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1706386606873514, "dur":5446, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1706386606878967, "dur":86, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.18f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
-,{ "pid":12345, "tid":17, "ts":1706386606878961, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":17, "ts":1706386606879054, "dur":2118, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1706386606881223, "dur":1527, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1706386606882751, "dur":60, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/GGJ2024_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":17, "ts":1706386606882817, "dur":647, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\mrtom\\OneDrive\\Documents\\GitHub\\GGJ2024\\GGJ2024\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":17, "ts":1706386606882813, "dur":654, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/GGJ2024_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":17, "ts":1706386606883468, "dur":892, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1706386606884374, "dur":254, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1706386606884647, "dur":425, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1706386606885088, "dur":1227, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1706386606886359, "dur":3618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/GGJ2024_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":17, "ts":1706386606889997, "dur":100556, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1706386606870509, "dur":2984, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1706386606873494, "dur":5493, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1706386606878988, "dur":227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":18, "ts":1706386606879215, "dur":1539, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1706386606880797, "dur":2309, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1706386606883128, "dur":524, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1706386606883682, "dur":511, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1706386606884194, "dur":132, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/GGJ2024_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":18, "ts":1706386606884336, "dur":483, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1706386606884847, "dur":362, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1706386606885232, "dur":341, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1706386606885601, "dur":641, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1706386606886255, "dur":206, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1706386606886485, "dur":168, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":18, "ts":1706386606886484, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/GGJ2024_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":18, "ts":1706386606886655, "dur":121, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1706386606886822, "dur":103663, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1706386606870722, "dur":2799, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1706386606873522, "dur":5341, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1706386606878874, "dur":495, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1706386606879376, "dur":476, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1706386606879892, "dur":186, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.18f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":19, "ts":1706386606879870, "dur":210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":19, "ts":1706386606880081, "dur":983, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1706386606881125, "dur":1565, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1706386606882691, "dur":106, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/GGJ2024_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":19, "ts":1706386606882801, "dur":842, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\mrtom\\OneDrive\\Documents\\GitHub\\GGJ2024\\GGJ2024\\Library\\Bee\\PlayerScriptAssemblies\\Unity.InputSystem.ForUI.dll" }}
-,{ "pid":12345, "tid":19, "ts":1706386606882799, "dur":845, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/GGJ2024_Data/Managed/Unity.InputSystem.ForUI.dll" }}
-,{ "pid":12345, "tid":19, "ts":1706386606883645, "dur":256, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1706386606883923, "dur":340, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1706386606884263, "dur":57, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/GGJ2024_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":19, "ts":1706386606884349, "dur":514, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1706386606884878, "dur":1051, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1706386606885988, "dur":899, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1706386606886901, "dur":103661, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":20, "ts":1706386606870327, "dur":3158, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":20, "ts":1706386606873486, "dur":5438, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":20, "ts":1706386606878930, "dur":244, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":20, "ts":1706386606879174, "dur":1649, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":20, "ts":1706386606880858, "dur":3924, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":20, "ts":1706386606884808, "dur":459, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":20, "ts":1706386606885281, "dur":165, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":20, "ts":1706386606885481, "dur":1157, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":20, "ts":1706386606886743, "dur":5698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/GGJ2024_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":20, "ts":1706386606892500, "dur":98025, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1706386606993984, "dur":739, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid":12345, "tid":0, "ts":1706446155392799, "dur":47113, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1706446155439931, "dur":118, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1706446155440110, "dur":992, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1706446155441344, "dur":95, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":0, "ts":1706446155441638, "dur":66, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1706446155441892, "dur":62, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1706446155442139, "dur":61, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1706446155442281, "dur":66, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1706446155442467, "dur":60, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1706446155442731, "dur":86, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1706446155442931, "dur":70, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1706446155443289, "dur":55, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1706446155444314, "dur":95, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":0, "ts":1706446155444996, "dur":56, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":0, "ts":1706446155441135, "dur":5051, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1706446155446189, "dur":141498, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1706446155587688, "dur":549, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1706446155588386, "dur":1332, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1706446155442042, "dur":4192, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1706446155446238, "dur":1551, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1706446155447790, "dur":4210, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1706446155452020, "dur":60, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.18f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
+,{ "pid":12345, "tid":1, "ts":1706446155452005, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":1, "ts":1706446155458336, "dur":86, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1706446155455251, "dur":3198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":1, "ts":1706446155458544, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1706446155459735, "dur":3745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1706446155464076, "dur":14161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1706446155478344, "dur":4705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1706446155483108, "dur":3589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1706446155486760, "dur":3801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1706446155490596, "dur":5627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1706446155496278, "dur":3832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1706446155500159, "dur":4185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1706446155504396, "dur":6967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1706446155511398, "dur":76265, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1706446155442515, "dur":3920, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1706446155446442, "dur":2102, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1706446155448544, "dur":3442, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1706446155452003, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1706446155476366, "dur":1830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1706446155478232, "dur":3789, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1706446155482094, "dur":3647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/Unity.InputSystem.ForUI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1706446155485807, "dur":4383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1706446155490249, "dur":4952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1706446155495236, "dur":4237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1706446155499530, "dur":3902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1706446155503477, "dur":6249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1706446155509780, "dur":2248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1706446155512058, "dur":75721, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1706446155442806, "dur":3757, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1706446155446564, "dur":5587, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1706446155452164, "dur":165, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.18f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
+,{ "pid":12345, "tid":3, "ts":1706446155452152, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1706446155495099, "dur":1359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1706446155496498, "dur":3847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1706446155500392, "dur":4085, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1706446155504521, "dur":7784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1706446155512342, "dur":75351, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1706446155441634, "dur":4570, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1706446155446209, "dur":1735, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1706446155447946, "dur":4067, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1706446155452015, "dur":224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1706446155494165, "dur":2129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1706446155496330, "dur":4197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1706446155500564, "dur":3962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1706446155504564, "dur":7611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1706446155512222, "dur":75472, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1706446155441829, "dur":4387, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1706446155446220, "dur":1428, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1706446155447649, "dur":4434, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1706446155452084, "dur":306, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1706446155455893, "dur":4488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1706446155461894, "dur":10828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":5, "ts":1706446155472904, "dur":3788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":5, "ts":1706446155476818, "dur":8135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1706446155485014, "dur":4842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1706446155489931, "dur":4375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1706446155494401, "dur":4778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1706446155499220, "dur":4042, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1706446155503312, "dur":8133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1706446155511475, "dur":76198, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1706446155441961, "dur":4264, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1706446155446228, "dur":1279, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1706446155447508, "dur":4628, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1706446155452137, "dur":205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1706446155543714, "dur":1016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1706446155544748, "dur":42922, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1706446155441352, "dur":4843, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1706446155446199, "dur":5782, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1706446155452597, "dur":331, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":7, "ts":1706446155452930, "dur":51, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":7, "ts":1706446155453120, "dur":55, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\mrtom\\OneDrive\\Documents\\GitHub\\GGJ2024\\GGJ2024\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1706446155453176, "dur":264, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\mrtom\\OneDrive\\Documents\\GitHub\\GGJ2024\\GGJ2024\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1706446155453441, "dur":141, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\mrtom\\OneDrive\\Documents\\GitHub\\GGJ2024\\GGJ2024\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1706446155453584, "dur":601, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\mrtom\\OneDrive\\Documents\\GitHub\\GGJ2024\\GGJ2024\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1706446155454189, "dur":268, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\mrtom\\OneDrive\\Documents\\GitHub\\GGJ2024\\GGJ2024\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":7, "ts":1706446155454459, "dur":1800, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\mrtom\\OneDrive\\Documents\\GitHub\\GGJ2024\\GGJ2024\\Library\\Bee\\PlayerScriptAssemblies\\Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1706446155456262, "dur":145, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\mrtom\\OneDrive\\Documents\\GitHub\\GGJ2024\\GGJ2024\\Library\\Bee\\PlayerScriptAssemblies\\Unity.InputSystem.ForUI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1706446155456409, "dur":502, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\mrtom\\OneDrive\\Documents\\GitHub\\GGJ2024\\GGJ2024\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1706446155456913, "dur":136, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\mrtom\\OneDrive\\Documents\\GitHub\\GGJ2024\\GGJ2024\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":7, "ts":1706446155457051, "dur":579, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\mrtom\\OneDrive\\Documents\\GitHub\\GGJ2024\\GGJ2024\\Library\\Bee\\PlayerScriptAssemblies\\Cinemachine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1706446155457741, "dur":240, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\Player7696b3d1-inputdata.json" }}
+,{ "pid":12345, "tid":7, "ts":1706446155458174, "dur":73, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.18f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.NativeProgramSupport.dll" }}
+,{ "pid":12345, "tid":7, "ts":1706446155452930, "dur":5510, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":7, "ts":1706446155459388, "dur":72, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1706446155460157, "dur":119858, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":7, "ts":1706446155581970, "dur":4927, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":7, "ts":1706446155581969, "dur":4930, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/boot.config" }}
+,{ "pid":12345, "tid":7, "ts":1706446155586913, "dur":714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1706446155442199, "dur":4155, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1706446155446363, "dur":2188, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1706446155448552, "dur":3455, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1706446155452012, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":8, "ts":1706446155455592, "dur":4001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":8, "ts":1706446155459657, "dur":1144, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\WindowsPlayer.exe" }}
+,{ "pid":12345, "tid":8, "ts":1706446155459656, "dur":1148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame.exe" }}
+,{ "pid":12345, "tid":8, "ts":1706446155460833, "dur":3772, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame.exe" }}
+,{ "pid":12345, "tid":8, "ts":1706446155464769, "dur":4946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1706446155469950, "dur":5777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1706446155475864, "dur":3749, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":8, "ts":1706446155479695, "dur":4782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1706446155484543, "dur":4090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1706446155488738, "dur":2865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1706446155491643, "dur":5307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1706446155497001, "dur":4360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1706446155501398, "dur":4386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1706446155505836, "dur":2910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":8, "ts":1706446155508800, "dur":1975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":8, "ts":1706446155510797, "dur":76881, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1706446155442284, "dur":4084, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1706446155446373, "dur":1687, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1706446155448062, "dur":3932, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1706446155452018, "dur":58, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.18f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":9, "ts":1706446155451999, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":9, "ts":1706446155452666, "dur":7583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":9, "ts":1706446155461790, "dur":14910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":9, "ts":1706446155476823, "dur":3941, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":9, "ts":1706446155480845, "dur":4465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":9, "ts":1706446155485365, "dur":4421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1706446155489935, "dur":4460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1706446155494446, "dur":4560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1706446155499053, "dur":3585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1706446155502666, "dur":6071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1706446155508813, "dur":2295, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":9, "ts":1706446155511147, "dur":76529, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1706446155442719, "dur":3776, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1706446155446498, "dur":360, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1706446155446858, "dur":5174, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1706446155452036, "dur":51, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.18f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
+,{ "pid":12345, "tid":10, "ts":1706446155452033, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1706446155455706, "dur":3318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1706446155459105, "dur":128, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.18f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":10, "ts":1706446155459102, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":10, "ts":1706446155459728, "dur":20657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":10, "ts":1706446155480493, "dur":4004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":10, "ts":1706446155484573, "dur":5270, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1706446155489923, "dur":5205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1706446155495191, "dur":4244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1706446155499486, "dur":4031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1706446155503550, "dur":6645, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1706446155510249, "dur":2555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":10, "ts":1706446155512826, "dur":74841, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1706446155442884, "dur":3652, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1706446155446537, "dur":5639, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1706446155452181, "dur":152, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.18f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1706446155452176, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1706446155543407, "dur":1003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1706446155544430, "dur":43348, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1706446155443107, "dur":3475, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1706446155446582, "dur":5589, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1706446155493803, "dur":1510, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1706446155495362, "dur":4408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1706446155499798, "dur":4131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1706446155503974, "dur":7039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1706446155511049, "dur":76630, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1706446155443148, "dur":3457, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1706446155446606, "dur":5543, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1706446155493450, "dur":1540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":13, "ts":1706446155495041, "dur":4209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1706446155499532, "dur":4118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1706446155503681, "dur":6475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1706446155510211, "dur":2528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":13, "ts":1706446155512769, "dur":74942, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1706446155443200, "dur":3425, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1706446155446625, "dur":5495, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1706446155452133, "dur":116, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.18f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
+,{ "pid":12345, "tid":14, "ts":1706446155452120, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":14, "ts":1706446155452260, "dur":74, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1706446155495498, "dur":1111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":14, "ts":1706446155496728, "dur":4183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1706446155500941, "dur":4060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1706446155505040, "dur":7476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1706446155512547, "dur":75117, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1706446155443267, "dur":3378, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1706446155446645, "dur":5457, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1706446155452103, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":15, "ts":1706446155452260, "dur":109, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1706446155455699, "dur":4294, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":15, "ts":1706446155460086, "dur":368, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":15, "ts":1706446155461889, "dur":4954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":15, "ts":1706446155467111, "dur":4011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":15, "ts":1706446155471389, "dur":3687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":15, "ts":1706446155475173, "dur":2239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":15, "ts":1706446155477495, "dur":6229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":15, "ts":1706446155483868, "dur":3909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":15, "ts":1706446155487843, "dur":2798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1706446155490790, "dur":5426, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1706446155496293, "dur":4263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1706446155500617, "dur":4272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1706446155504931, "dur":7532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1706446155512503, "dur":75159, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1706446155443322, "dur":3332, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1706446155446655, "dur":5459, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1706446155452114, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":16, "ts":1706446155492359, "dur":1281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":16, "ts":1706446155493694, "dur":5626, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1706446155499363, "dur":3905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1706446155503313, "dur":5890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1706446155509263, "dur":2466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/level0.resS" }}
+,{ "pid":12345, "tid":16, "ts":1706446155511757, "dur":75934, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1706446155443483, "dur":3181, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1706446155446664, "dur":5449, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1706446155452113, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":17, "ts":1706446155492609, "dur":1437, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":17, "ts":1706446155494080, "dur":3940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1706446155498088, "dur":4115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1706446155502239, "dur":6037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1706446155508338, "dur":1734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":17, "ts":1706446155510126, "dur":8788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":17, "ts":1706446155518943, "dur":68765, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1706446155443655, "dur":3032, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1706446155446688, "dur":5421, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1706446155478511, "dur":1837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":18, "ts":1706446155480422, "dur":4238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":18, "ts":1706446155484723, "dur":4389, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":18, "ts":1706446155489171, "dur":3137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1706446155492349, "dur":4736, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1706446155497116, "dur":4371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1706446155501550, "dur":4403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1706446155505991, "dur":3017, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":18, "ts":1706446155509153, "dur":1764, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":18, "ts":1706446155510945, "dur":76733, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1706446155443593, "dur":3091, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1706446155446684, "dur":5414, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1706446155452098, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":19, "ts":1706446155477166, "dur":2468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":19, "ts":1706446155479750, "dur":3022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":19, "ts":1706446155482874, "dur":6252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":19, "ts":1706446155489183, "dur":3096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1706446155492333, "dur":4680, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1706446155497043, "dur":4187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1706446155501266, "dur":4142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1706446155505449, "dur":68, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.18f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityPlayer.dll" }}
+,{ "pid":12345, "tid":19, "ts":1706446155505448, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":19, "ts":1706446155505528, "dur":29999, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":19, "ts":1706446155535551, "dur":52163, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1706446155443727, "dur":2982, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1706446155446710, "dur":5477, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1706446155452193, "dur":207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":20, "ts":1706446155455546, "dur":3226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":20, "ts":1706446155458839, "dur":141, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.18f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":20, "ts":1706446155458836, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":20, "ts":1706446155459687, "dur":4163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":20, "ts":1706446155464134, "dur":4461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":20, "ts":1706446155468919, "dur":3853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":20, "ts":1706446155472875, "dur":3276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":20, "ts":1706446155476243, "dur":3770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":20, "ts":1706446155480082, "dur":4445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":20, "ts":1706446155484624, "dur":4275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":20, "ts":1706446155489016, "dur":2987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1706446155492045, "dur":4799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1706446155496887, "dur":4272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1706446155501191, "dur":4021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1706446155505247, "dur":7419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mrtom/OneDrive/Desktop/gamejam/MothToFlame/MothToFlame_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1706446155512695, "dur":74966, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1706446155591372, "dur":966, "ph":"X", "name": "ProfilerWriteOutput" }
 ,

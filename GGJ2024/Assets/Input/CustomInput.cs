@@ -62,6 +62,15 @@ public partial class @CustomInput: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Retsart"",
+                    ""type"": ""Button"",
+                    ""id"": ""d5d5b55a-973e-47c2-969f-a02c47e4c4ef"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -383,6 +392,28 @@ public partial class @CustomInput: IInputActionCollection2, IDisposable
                     ""action"": ""CanBarrel"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""09aa459c-1d73-4140-ae4b-47b8c5b6aee6"",
+                    ""path"": ""<Keyboard>/r"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Retsart"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""99825b11-fd69-4f1b-8aaf-6b1b2851cfb6"",
+                    ""path"": ""<Gamepad>/dpad/down"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Retsart"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -395,6 +426,7 @@ public partial class @CustomInput: IInputActionCollection2, IDisposable
         m_Player_Rotate = m_Player.FindAction("Rotate", throwIfNotFound: true);
         m_Player_Fly = m_Player.FindAction("Fly", throwIfNotFound: true);
         m_Player_CanBarrel = m_Player.FindAction("CanBarrel", throwIfNotFound: true);
+        m_Player_Retsart = m_Player.FindAction("Retsart", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -460,6 +492,7 @@ public partial class @CustomInput: IInputActionCollection2, IDisposable
     private readonly InputAction m_Player_Rotate;
     private readonly InputAction m_Player_Fly;
     private readonly InputAction m_Player_CanBarrel;
+    private readonly InputAction m_Player_Retsart;
     public struct PlayerActions
     {
         private @CustomInput m_Wrapper;
@@ -468,6 +501,7 @@ public partial class @CustomInput: IInputActionCollection2, IDisposable
         public InputAction @Rotate => m_Wrapper.m_Player_Rotate;
         public InputAction @Fly => m_Wrapper.m_Player_Fly;
         public InputAction @CanBarrel => m_Wrapper.m_Player_CanBarrel;
+        public InputAction @Retsart => m_Wrapper.m_Player_Retsart;
         public InputActionMap Get() { return m_Wrapper.m_Player; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -489,6 +523,9 @@ public partial class @CustomInput: IInputActionCollection2, IDisposable
             @CanBarrel.started += instance.OnCanBarrel;
             @CanBarrel.performed += instance.OnCanBarrel;
             @CanBarrel.canceled += instance.OnCanBarrel;
+            @Retsart.started += instance.OnRetsart;
+            @Retsart.performed += instance.OnRetsart;
+            @Retsart.canceled += instance.OnRetsart;
         }
 
         private void UnregisterCallbacks(IPlayerActions instance)
@@ -505,6 +542,9 @@ public partial class @CustomInput: IInputActionCollection2, IDisposable
             @CanBarrel.started -= instance.OnCanBarrel;
             @CanBarrel.performed -= instance.OnCanBarrel;
             @CanBarrel.canceled -= instance.OnCanBarrel;
+            @Retsart.started -= instance.OnRetsart;
+            @Retsart.performed -= instance.OnRetsart;
+            @Retsart.canceled -= instance.OnRetsart;
         }
 
         public void RemoveCallbacks(IPlayerActions instance)
@@ -528,5 +568,6 @@ public partial class @CustomInput: IInputActionCollection2, IDisposable
         void OnRotate(InputAction.CallbackContext context);
         void OnFly(InputAction.CallbackContext context);
         void OnCanBarrel(InputAction.CallbackContext context);
+        void OnRetsart(InputAction.CallbackContext context);
     }
 }
